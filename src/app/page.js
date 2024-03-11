@@ -1,4 +1,5 @@
 import AlertDialog from "@/components/AlertDialog1";
+import AspectRat from "@/components/AspectRat";
 import BtnCompoents from "@/components/BtnCompoents";
 import Typo from "@/components/Typo";
 
@@ -19,7 +20,9 @@ export default function Home() {
        
        <Typo/>
 
-      
+        {/* aspect ratio */}
+        <h1 className="font-bold text-xl my-6">Aspect ratios in the shadcn 🧑‍💻</h1>
+        <AspectRat/>
        
       </main>
    </div>
