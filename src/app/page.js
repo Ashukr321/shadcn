@@ -1,9 +1,17 @@
-import Image from "next/image";
+import AlertDialog from "@/components/AlertDialog1";
+import BtnCompoents from "@/components/BtnCompoents";
 
 export default function Home() {
   return (
-    <main  className="p-10" >
-      <h1 className="text-blue-600 text-center text-3xl">welcome to learn about the shadcn</h1>
-    </main>
+   <div>
+      <main className="container py-10 h-screen bg-slate-800">
+       <section className="p-4 rounded-sm bg-red-300">
+         <BtnCompoents/>
+       </section>
+       <section className="mt-4 flex justify-center bg-orange-300 p-4 rounded-sm">
+         <AlertDialog/>
+       </section>
+      </main>
+   </div>
   );
 }
