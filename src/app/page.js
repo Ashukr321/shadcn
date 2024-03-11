@@ -1,5 +1,6 @@
 import AlertDialog from "@/components/AlertDialog1";
 import BtnCompoents from "@/components/BtnCompoents";
+import Typo from "@/components/Typo";
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
        <section className="mt-4 flex justify-center bg-orange-300 p-4 rounded-sm">
          <AlertDialog/>
        </section>
+       
+       <Typo/>
 
       
        
