@@ -2,6 +2,7 @@ import AlertDialog from "@/components/AlertDialog1";
 import AspectRat from "@/components/AspectRat";
 import BadegDemo from "@/components/BadegDemo";
 import BtnCompoents from "@/components/BtnCompoents";
+import Progress1 from "@/components/Progress1";
 import Typo from "@/components/Typo";
 
 export default function Home() {
@@ -26,6 +27,9 @@ export default function Home() {
         <AspectRat/>
         <section className="p-4 mt-4 flex rounded-sm bg-purple-600">
         <BadegDemo/>
+        </section>
+        <section className="mt-4">
+          <Progress1/>
         </section>
       </main>
    </div>
